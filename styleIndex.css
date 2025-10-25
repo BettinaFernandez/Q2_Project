@@ -1,3 +1,20 @@
+header{
+background-color: rgb(255, 108, 132);
+padding: 15px 30px;
+border: 2px solid rgb(179, 43, 66);
+border-radius: 500px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: larger;
+
+}
+
+
+
 .links a {
-    
+background-color: pink;
+overflow: hidden;
+float: none;
+border-radius: 12px;
+margin: 20px 27px;
 }
