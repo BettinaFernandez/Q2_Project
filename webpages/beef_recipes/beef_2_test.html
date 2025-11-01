@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/styleIndex.css">
 
 <style>
+    h1{
+        color: rgb(203, 239, 120);
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
     .beef_links a{
         color: blueviolet;
         font-weight: 900;
@@ -44,30 +49,16 @@
         </nav>
     </header>
 
-
 <main>
-<section class="beef_links">
-<a href="#" onclick="redirect_recipe('beef_1_test')">Beef Recipe 1 (Test)</a>
-</section>
+<h1> This is my recipe one for two!</h1>
 
-<script>
-    function redirect_recipe(name_of_recipe){
-        const quantity=prompt("How many servings? Pick from 1-5.");
-
-        if (name_of_recipe=="beef_1_test"){
-            if(quantity === "1"){
-                location.href="beef_1_test.html";
-            }
-            if(quantity === "2"){
-                location.href="beef_2_test.html";
-            }
-        }
-    }
-</script>
+<div class="beef_links">
+<a href="beef.html">Back to Beef Recipe Homepage</a>
+</div>
 </main>
 
 
 
-    </body>
 
+    </body>
 </html>

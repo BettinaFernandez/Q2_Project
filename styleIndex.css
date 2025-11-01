@@ -1,3 +1,10 @@
+main{
+  margin-left: 70px;
+  padding: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 header{
 display: flex;
 flex-direction: column;
