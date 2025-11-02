@@ -1,0 +1,5 @@
+# Kitchen Novice Secrets
+
+### Kitchen Novice Secrets is an online cookbook meant for beginner bakers and aspiring cookers. Each section leads to various recipes to choose, used to level up the user's cooking skills from the most basic recipes to more advanced ones! Every recipe also allows the user to choose how many servings they would like to make, each quantity leading to a separate and specific recipe for the cooker to use. To make it more engaging, our website also features quizzes! In these quizzes, the user gets to find out their food personality, or maybe even an exotic recipe that they must try based on their tastes!
+
+### JS will be used in identifying how many servings the cooker wants the recipe to provide and outputing results in quizzes. The initial tests can be found in the Beef Recipes and Quizzes menu.
