@@ -35,7 +35,12 @@ header h1 {
   margin: 10px auto 1% auto;
   border-radius: 50px;
   border: 3px solid;
+  transition: all 0.5s ease-in-out;
 }
+header h1:hover{
+    transform: scale(1.08);
+}
+
 p {
   font-size: 20px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,9 +54,19 @@ p {
     -2px  2px  #ffff,
      2px  2px  #ffff;
   text-decoration:underline;
-
+  animation: colorchange 3s infinite;
 }
+
+@keyframes colorchange {
+  0%   { color: rgb(107, 129, 26); }
+  25%  { color: rgb(201, 189, 15); }
+  50%  { color: rgb(164, 93, 27); }
+  75%  { color: rgb(149, 42, 42); }
+  100% { color: rgb(107, 129, 26); }
+}
+
 nav.nav-grid {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
@@ -59,13 +74,14 @@ nav.nav-grid {
   margin: 60px auto;
   padding: 20px;
   background-color: #fffff157;
-  border-radius:50px
+  border-radius:50px;
+  border: 7px dotted rgba(255, 255, 255, 0.63);
 }
 
 .nav-card {
   text-align: center;
   flex-direction: column;
-  width: 200px;
+  width: 250px;
   height: auto;
   display: inline-block;
   align-items: center;
@@ -75,7 +91,7 @@ nav.nav-grid {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
-  padding: 20px 14px;
+  padding: 20px 20px;
   border-radius: 20px;
   border: 3px solid rgba(236, 68, 68, 0.614);
   margin: 5px;
