@@ -10,14 +10,13 @@
 
 <style>
     .beef_links a{
-        color: blueviolet;
+        color: rgb(255, 255, 255);
         font-weight: 900;
         font-size: 40px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-decoration: none;
     }
     .beef_links a:visited{
-        color:blueviolet;
         text-decoration: none;
     }
     .beef_links a:hover{
@@ -30,24 +29,11 @@
     <div class="logo">
         <img src="https://i.pinimg.com/736x/b2/53/86/b253868bc938932717dd7bcde1d002ab.jpg">
     </div>
-        <nav aria-label="tabs">
-            <div class="links">
-                <a href="/index.html"> About us! </a>
-                <a href="../quizzes/quiz.html"> Quizzes </a>
-                <a class="active" href="#beef"> Beef Recipes </a>
-                <a href="pork.html"> Pork Recipes</a>
-                <a href="chicken.html"> Chicken Recipes </a>
-                <a href="rice_veggies.html"> Rice and Vegetables </a>
-                <a href="pasta_noodles.html"> Pasta and Noodles </a>
-                <a href="desserts.html"> Desserts </a>
-                <a href="drinks.html"> Beverages </a>
-            </div>
-        </nav>
     </header>
 
 
 <main>
-<section class="beef_links">
+<section id="about" class="beef_links">
 <a href="#" onclick="redirect_recipe('beef_1_test')">Beef Recipe 1 (Test)</a>
 </section>
 
@@ -67,7 +53,19 @@
 </script>
 </main>
 
-
+    <nav class="nav-grid">
+        <div>
+            <a class="nav-card" href="/index.html"> About us! </a>
+            <a class="nav-card" href="../quizzes/quiz.html"> Quizzes </a>
+            <a class="nav-card" class="active" href="#beef"> Beef Recipes </a>
+            <a class="nav-card" href="pork.html"> Pork Recipes</a>
+            <a class="nav-card" href="chicken.html"> Chicken Recipes </a>
+            <a class="nav-card" href="rice_veggies.html"> Rice and Vegetables </a>
+            <a class="nav-card" href="pasta_noodles.html"> Pasta and Noodles </a>
+            <a class="nav-card" href="desserts.html"> Desserts </a>
+            <a class="nav-card" href="drinks.html"> Beverages </a>
+        </div>
+    </nav>
 
     </body>
 
