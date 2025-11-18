@@ -32,7 +32,7 @@ header h1 {
   color: #fffff1;
   background-color:rgba(234, 102, 102, 0.318);
   text-shadow: 3px 3px 8px rgba(42, 5, 5, 0.459);
-  margin: 10px auto 1% auto;
+  margin: 10px auto 10px auto;
   border-radius: 50px;
   border: 3px solid;
   transition: all 0.5s ease-in-out;
@@ -115,4 +115,31 @@ nav.nav-grid {
   font-size: 25px;
   background-color: rgba(168, 61, 61, 0.43);
   border-radius: 50px;
+}
+
+.active{
+  text-align: center;
+  flex-direction: column;
+  width: 250px;
+  height: auto;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(191, 235, 255);
+  color: rgb(32, 80, 125);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 3px solid rgba(93, 129, 170, 0.614);
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.25s ease-in-out;
+}
+
+.active:hover {
+  color: whitesmoke;
+  transform: scale(1.08);
+  text-shadow: 1px 1px 3px rgb(14, 51, 86);
 }
