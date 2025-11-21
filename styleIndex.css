@@ -25,16 +25,14 @@ header {
 }
 
 header h1 {
-  width: 60%;
+  width: 95%;
   text-align: center;
   font-size: 70px;
   font-weight: 1000;
-  color: #fffff1;
-  background-color:rgba(234, 102, 102, 0.318);
-  text-shadow: 3px 3px 8px rgba(42, 5, 5, 0.459);
-  margin: 10px auto 10px auto;
-  border-radius: 50px;
-  border: 3px solid;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 8px rgb(204, 69, 78);
+  padding: 15px;
+  margin: 5px auto 5px auto;
   transition: all 0.5s ease-in-out;
 }
 header h1:hover{
@@ -53,7 +51,6 @@ p {
      2px -2px  #ffff,
     -2px  2px  #ffff,
      2px  2px  #ffff;
-  text-decoration:underline;
   animation: colorchange 3s infinite;
 }
 

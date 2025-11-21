@@ -7,16 +7,6 @@
     <link rel="icon" href="https://i.pinimg.com/736x/1a/9a/d2/1a9ad2fb80ea84668bf61cd3bf1e9439.jpg" type="image/png">
     <!--THE FAVICON IS A TEST!!! THE LOGO WILL BE DESIGNED SOON-->
     <link rel="stylesheet" href="styleIndex.css">
-</head>
-    <body>
-
-    <header>
-    <div class="logo">
-        <img src="https://i.pinimg.com/736x/b2/53/86/b253868bc938932717dd7bcde1d002ab.jpg">
-    </div>
-    <h1> Kitchen Novice Secrets</h1>
-      <p> The Ultimate Cookbook for Aspiring Chefs</p>
-    </header>
 
 <style>
 
@@ -25,15 +15,57 @@
         src: url('fonts/fonts/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
     }
 
-    p {
+    @font-face {
+        font-family: 'Super_Shape';
+        src: url('fonts/fonts/SuperShape-PV9qE.ttf') format('truetype');
+    }
+    header p {
         font-family: 'Nature_Beauty';
         letter-spacing: 2px;
         font-weight: lighter;
         font-style: italic;
         font-size:x-large;
+        margin-bottom: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    header p:hover{
+    transform: scale(1.01);
+    text-decoration: underline;
+    }
+
+    header h1{
+        padding: 2px;
+        line-height: 1.1;
+        font-family: 'Super_Shape';
+        letter-spacing: 1px;
+        transition: all 0.3s ease-in-out;
+        font-size: 143.8px
+
+    }
+
+    header h1:hover{
+    transform: scale(1.06);
+    }
+
+    .logo img{
+        width: 300px;
+        height: 300px;
     }
 
 </style>
+
+</head>
+    <body>
+
+    <header>
+    <div class="logo">
+        <img src="https://i.pinimg.com/736x/b2/53/86/b253868bc938932717dd7bcde1d002ab.jpg">
+    </div>
+    <h1> ♨️ Kitchen Novice ♨️ <br>-`♡´- Secrets -`♡´- </h1>
+    <p> The Ultimate Cookbook for Aspiring Chefs</p>
+
+    </header>
 
 <main>
     <section id="about">
