@@ -27,17 +27,23 @@ header {
 header h1 {
   width: 95%;
   text-align: center;
-  font-size: 70px;
+  font-size: 143px;
   font-weight: 1000;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 8px rgb(204, 69, 78);
   padding: 15px;
   margin: 5px auto 5px auto;
-  transition: all 0.5s ease-in-out;
+  animation: float 3.5s ease-in-out infinite;
 }
-header h1:hover{
-    transform: scale(1.08);
+
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
 }
+
+
 
 p {
   font-size: 20px;
@@ -110,7 +116,8 @@ nav.nav-grid {
   margin: 5px auto;
   width: 1300px;
   font-size: 25px;
-  background-color: rgba(168, 61, 61, 0.43);
+  background-color: rgba(214, 81, 81, 0.43);
+  backdrop-filter: blur(4px);
   border-radius: 50px;
 }
 
@@ -139,4 +146,27 @@ nav.nav-grid {
   color: whitesmoke;
   transform: scale(1.08);
   text-shadow: 1px 1px 3px rgb(14, 51, 86);
+}
+
+
+.Tab {
+    text-align: center;
+    font-family: 'Nature_Beauty', sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.Tab:hover {
+    transform: scale(1.1);
+}
+
+.introduction, .intro_Creators{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease, opacity 0.4s ease;
+    opacity: 0;
+}
+
+.introduction.open, .intro_Creators.open {
+    max-height: 500px;
+    opacity: 1;
 }

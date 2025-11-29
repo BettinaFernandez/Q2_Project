@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="">
@@ -8,88 +9,163 @@
     <!--THE FAVICON IS A TEST!!! THE LOGO WILL BE DESIGNED SOON-->
     <link rel="stylesheet" href="styleIndex.css">
 
-<style>
+    <style>
+        @font-face {
+            font-family: 'Nature_Beauty';
+            src: url('fonts/fonts/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
+        }
 
-    @font-face {
-        font-family: 'Nature_Beauty';
-        src: url('fonts/fonts/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
-    }
+        @font-face {
+            font-family: 'Super_Shape';
+            src: url('fonts/fonts/SuperShape-PV9qE.ttf') format('truetype');
+        }
 
-    @font-face {
-        font-family: 'Super_Shape';
-        src: url('fonts/fonts/SuperShape-PV9qE.ttf') format('truetype');
-    }
-    header p {
-        font-family: 'Nature_Beauty';
-        letter-spacing: 2px;
-        font-weight: lighter;
-        font-style: italic;
-        font-size:x-large;
-        margin-bottom: 50px;
-        transition: all 0.3s ease-in-out;
-    }
+        header p {
+            font-family: 'Nature_Beauty';
+            letter-spacing: 2px;
+            font-weight: lighter;
+            font-style: italic;
+            font-size: x-large;
+            margin-bottom: 50px;
+            transition: all 0.5s ease-in-out;
+        }
 
-    header p:hover{
-    transform: scale(1.01);
-    text-decoration: underline;
-    }
+        header p:hover {
+            transform: scale(1.1);
+        }
 
-    header h1{
-        padding: 2px;
-        line-height: 1.1;
-        font-family: 'Super_Shape';
-        letter-spacing: 1px;
-        transition: all 0.3s ease-in-out;
-        font-size: 143.8px
+        header h1 {
+            padding: 2px;
+            line-height: 1.1;
+            font-family: 'Super_Shape';
+            letter-spacing: 1px;
+        }
 
-    }
+        .logo img {
+            width: 300px;
+            height: 300px;
+        }
 
-    header h1:hover{
-    transform: scale(1.06);
-    }
+        main h1 {
+            color: aliceblue;
+            font-family: 'Super_Shape';
+            letter-spacing:2px;
+            font-size: 60px;
+            margin: 6px;
+            text-shadow:
+                -2px -2px #ba5b5b,
+                2px -2px #ba5b5b,
+                -2px 2px #ba5b5b,
+                2px 2px #4f6335;
+        }
 
-    .logo img{
-        width: 300px;
-        height: 300px;
-    }
+        .dividers {
+            margin: 2px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 40px;
+        }
 
-</style>
+.intro_Creators {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 800px; 
+    margin: 2px;
+}
+
+.intro_Creators h2 {
+    font-family: 'Nature_Beauty';
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 10px auto auto 50px;
+    text-shadow: 3px 3px 8px rgb(204, 69, 78);
+}
+
+.intro_Creators h5 {
+    line-height: 1.5;
+    margin: auto;
+}
+
+    </style>
 
 </head>
-    <body>
+
+<body>
 
     <header>
-    <div class="logo">
-        <img src="https://i.pinimg.com/736x/b2/53/86/b253868bc938932717dd7bcde1d002ab.jpg">
-    </div>
-    <h1> ♨️ Kitchen Novice ♨️ <br>-`♡´- Secrets -`♡´- </h1>
-    <p> The Ultimate Cookbook for Aspiring Chefs</p>
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/b2/53/86/b253868bc938932717dd7bcde1d002ab.jpg">
+        </div>
+        <h1> ♨️ Little Chef's ♨️ <br>-`♡´- Corner -`♡´- </h1>
+        <p> ☕︎ ☕︎ 𝜗𝜚 ~ `A Cozy Cookbook for Every Craving 𝜗𝜚` ~ ☕︎ ☕︎</p>
 
     </header>
 
-<main>
-    <section id="about">
-    About us! Yay we'll introduce the website and the creators in this page.
-    <h5> Kitchen Novice Secrets is an online cookbook meant for beginner bakers and aspiring cookers. Each section leads to various recipes to choose, used to level up the user's cooking skills from the most basic recipes to more advanced ones! Every recipe also allows the user to choose how many servings they would like to make, each quantity leading to a separate and specific recipe for the cooker to use. To make it more engaging, our website also features quizzes! In these quizzes, the user gets to find out their food personality, or maybe even an exotic recipe that they must try based on their tastes! </h5>
-</section>
-</main>
+    <main>
+        <h2 class="dividers">─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ────</h2>
+        <section id="about">
 
-      <nav class="nav-grid">
-            <div>
-                <a class="nav-card" class="active" > ✧ ༘ ⋆｡♡🏠︎ <br> About us! </a>
-                <a class="nav-card" href="webpages/quizzes/quiz.html"> (๑'ᵕ'๑)⸝* <br> Quizzes </a>
-                <a class="nav-card" href="webpages/beef_recipes/beef.html"> 𓃓 𓃔 𓃓 𓃖 <br> Beef Recipes </a>
-                <a class="nav-card" href="webpages/pork_recipes/pork.html"> ⍝◜ᐢ•🐽•ᐢ◝⍝ <br> Pork Recipes</a>
-                <a class="nav-card" href="webpages/chicken_recipes/chicken.html"> ꒰ঌ( •ө• )໒꒱ <br> Chicken Recipes </a>
-                <a class="nav-card" href="webpages/rice_veggies_recipes/rice_veggies.html"> ˙ . ꒷ 🍙 . 𖦹˙— 🐈‍⬛ <br> Rice and Vegetables </a>
-                <a class="nav-card" href="webpages/pasta_recipes/pasta_noodles.html"> 🍝🥢♡ ༘*.ﾟ <br> Pasta and Noodles </a>
-                <a class="nav-card" href="webpages/desserts_recipes/desserts.html"> ୧ ‧₊˚ 🍮 ⋅ ☆ <br> Desserts </a>
-                <a class="nav-card" href="webpages/drinks_recipes/drinks.html"> 🥂⋅♡𓂃 ࣪ ִֶָ☾. <br> Beverages </a>
+            <div class="Tab" onclick="openTab('intro')">
+                <h1> Welcome to Little Chef's Corner !! <br> ꉂ(˵˃ ᗜ ˂˵) </h1>
+            </div>
+            
+            <div class="introduction" id="intro">
+            <h5> Little Chef's Corner is a beginner-friendly online cookbook created for anyone who wants to feel
+                confident in the kitchen. Inside, you’ll find everything from hearty meals to adorable desserts, cozy
+                drinks, and simple everyday dishes — all organized to help you grow at your own pace. <br><br>
+                Every recipe comes with serving options, step-by-step instructions, and a sprinkle of fun through our
+                personality quizzes.
+                <br><br>
+                A warm and welcoming food journey awaits you !!! ♡
+            </h5>
+            </div>
+
+            <h2 class="dividers"> ──── ୨୧ ──────── ୨୧ ──────── ୨୧ ──────── ୨୧ ────</h2>
+
+            <div class="Tab" onclick="openTab('creators')">
+                <h1> Meet the Creators . . . </h1>
+            </div>
+
+            <div class="intro_Creators" id="creators">
+            <h2> Hi, I'm Bet !<br> </h2>
+            <h5> <br> HIHIHI my name's Bettina Frances B. Fernandez, but my friends call me Bet for short. I'm a pshs student in grade 9 who is creating this website for a CS3 project (and for myself yay). I enjoy baking desserts of all kind, as well as playing games and music. I love cats i love cats i love cats </h5>
+
+            <div class="Bettina">
+            <img src="https://www.iheartnaptime.net/wp-content/uploads/2023/08/Beef-and-Broccoli-Ingredients-720x514.jpg">
+            </div>
 
             </div>
-        </nav>
+
+<script>
+    function openTab(id) {
+    const desc = document.getElementById(id);
+    desc.classList.toggle("open");
+}
+
+</script>
+
+        </section>
+    </main>
+
+    <nav class="nav-grid">
+        <div>
+            <a class="nav-card" class="active"> ✧ ༘ ⋆｡♡🏠︎ <br> About us! </a>
+            <a class="nav-card" href="webpages/quizzes/quiz.html"> (๑'ᵕ'๑)⸝* <br> Quizzes </a>
+            <a class="nav-card" href="webpages/beef_recipes/beef.html"> 𓃓 𓃔 𓃓 𓃖 <br> Beef Recipes </a>
+            <a class="nav-card" href="webpages/pork_recipes/pork.html"> ⍝◜ᐢ•🐽•ᐢ◝⍝ <br> Pork Recipes</a>
+            <a class="nav-card" href="webpages/chicken_recipes/chicken.html"> ꒰ঌ( •ө• )໒꒱ <br> Chicken Recipes </a>
+            <a class="nav-card" href="webpages/rice_veggies_recipes/rice_veggies.html"> ˙ . ꒷ 🍙 . 𖦹˙— 🐈‍⬛ <br> Rice
+                and Vegetables </a>
+            <a class="nav-card" href="webpages/pasta_recipes/pasta_noodles.html"> 🍝🥢♡ ༘*.ﾟ <br> Pasta and Noodles </a>
+            <a class="nav-card" href="webpages/desserts_recipes/desserts.html"> ୧ ‧₊˚ 🍮 ⋅ ☆ <br> Desserts </a>
+            <a class="nav-card" href="webpages/drinks_recipes/drinks.html"> 🥂⋅♡𓂃 ࣪ ִֶָ☾. <br> Beverages </a>
+
+        </div>
+    </nav>
 
 
 
-    </body>
+</body>
+
 </html>
