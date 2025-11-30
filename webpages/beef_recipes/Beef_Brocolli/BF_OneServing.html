@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="">
+    <title> Kitchen Novice Secrets </title>
+    <link rel="icon" href="https://i.pinimg.com/736x/1a/9a/d2/1a9ad2fb80ea84668bf61cd3bf1e9439.jpg" type="image/png">
+    <!--THE FAVICON IS A TEST!!! THE LOGO WILL BE DESIGNED SOON-->
+    <link rel="stylesheet" href="../../../styleIndex.css">
+
+<style>
+
+    .beef_brocolli_recipe{
+        background-color: rgba(255, 235, 205, 0.49);
+        border: 2px solid rgb(108, 77, 74);
+        border-radius: 50px;
+        max-width: 75%;
+        margin: 10px auto 10px auto;
+        overflow: auto;
+    }
+
+    main p {
+        font-family: 'Nature_Beauty';
+        letter-spacing: 2px;
+        font-weight: lighter;
+        font-style: italic;
+        font-size: x-large;
+        margin-bottom: 50px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    h2{
+        font-size: 40px;
+        font-family: 'Super_Shape';
+        letter-spacing: 2px;
+        font-weight: lighter;
+        text-shadow:
+        -2px -2px #ba5b5b,
+         2px -2px #ba5b5b,
+        -2px 2px #ba5b5b,
+        2px 2px #4f6335;
+        margin: 10px;
+    }
+
+    main h3{
+        margin-left: 50px;
+        font-size: 25px;
+        text-align: left;
+        text-shadow:
+            2px 2px 0px rgb(86, 140,188), 
+            -2px -2px 0px rgb(86, 140,188),
+            2px -2px 0px rgb(86, 140,188),
+            -2px 2px 0px rgb(86, 140,188);
+    }
+
+    .ingredients_photo img{
+        float: right;
+        margin: 10px;
+        border: 3px solid rgb(255, 255, 255);
+        width: 500px;
+        
+    }
+
+    .Tab {
+    text-align: center;
+    font-family: 'Nature_Beauty', sans-serif;
+    transition: transform 0.3s ease;
+    }
+
+    .Tab:hover {
+    transform: scale(1.1);
+    }
+
+    .ingredients{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease, opacity 0.4s ease;
+    opacity: 0;
+    }
+
+    .ingredients.open{
+    max-height: 500px;
+    opacity: 1;
+    }
+
+    main h1{
+        font-size: 100px;
+    }
+
+
+
+</style>
+
+</head>
+    <body>
+    <header>
+
+<main>
+<h1>🥩 ~ Beef Broccoli ~ 🥦</h1>
+<p> 𝜗𝜚 ~ ` For One Serving ` ~ 𝜗𝜚 </p>
+<div id="about">
+
+<div class="Tab" onclick="openTab('ingredients')">
+<h2> INGREDIENTS FOR BEEF BROCCOLI (One Serving) </h2>
+</div>
+
+<div class="ingredients" id="ingredients">
+<h3>
+     <ul> 
+      <li> 2 tbsp coconut oil </li>
+      <li> 1 pc white onion, chopped </li>
+      <li> 4 cloves garlic, chopped </li>
+      <li> 300 g beef sirloin, sliced into strips </li>
+      <li> ¼ cup water </li>
+      <li> 1 pc Knorr Beef Cubes </li>
+      <li> 2 tbsp oyster sauce </li>
+      <li> 200 g broccoli, cut into florets </li>
+      <li> 1 tbsp cornstarch, dissolved in 1 to 2 tbsp water </li>
+  </ul>
+</h3>
+
+
+
+
+    <div class="ingredients_photo">
+        <img src="https://www.iheartnaptime.net/wp-content/uploads/2023/08/Beef-and-Broccoli-Ingredients-720x514.jpg">
+    </div>
+</div>
+
+</div> 
+
+<script>
+    function openTab(id) {
+    const desc = document.getElementById(id);
+    desc.classList.toggle("open");
+}
+
+</script>
+
+</div>
+
+
+
+<div class="beef_links">
+<a href="../beef.html">Back to Beef Recipe Homepage</a>
+</div>
+</main>
+
+        <nav class="nav-grid">
+            <div>
+                <a class="nav-card" href="../../../index.html"> About us! </a>
+                <a class="nav-card" href="../quizzes/quiz.html"> Quizzes </a>
+                <a class="active" href="#beef"> Beef Recipes </a>
+                <a class="nav-card" href="../../pork_recipes/pork.html"> Pork Recipes</a>
+                <a class="nav-card" href="../../chicken_recipes/chicken.html"> Chicken Recipes </a>
+                <a class="nav-card" href="../../rice_veggies_recipes/rice_veggies.html"> Rice and Vegetables </a>
+                <a class="nav-card" href="../../pasta_recipes/pasta_noodles.html"> Pasta and Noodles </a>
+                <a class="nav-card" href="../../desserts_recipes/desserts.html"> Desserts </a>
+                <a class="nav-card" href="../../drinks_recipes/drinks.html"> Beverages </a>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    </body>
+</html>
