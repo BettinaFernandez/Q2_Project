@@ -1,10 +1,10 @@
-# Kitchen Novice Secrets
+# Little Chef's Corner
 ## The Ultimate Beginner Cookbook
 
 ### Logo/Favicon: 
 
-### Description: What's Kitchen Novice Secrets all about?
- Kitchen Novice Secrets is an online cookbook meant for beginner bakers and aspiring chefs. Each section showcases various recipes of various difficulties, helping the user try out new dishes, improve their cooking techniques, and rise to a higher skill level! Every recipe also allows the user to choose how many servings they would like to make, each quantity leading to a separate and specific recipe for the cooker to use.
+### Description: What's Little Chef's Corner all about?
+Little Chef's Corner is an online cookbook meant for beginner bakers and aspiring chefs. Each section showcases various recipes of various difficulties, helping the user try out new dishes, improve their cooking techniques, and rise to a higher skill level! Every recipe also allows the user to choose how many servings they would like to make, each quantity leading to a separate and specific recipe for the cooker to use.
 
  There are recipes that range based on the user's viand of choice-- beef, chicken, and pork. On top of that, there are recipes for different kinds of pastas, helping the user explore different unique tastes. To quench the user's thirst, we've included numerous recipes for refreshing, bold, and creative drinks. Lastly, what is a meal without some dessert? There are recipes for a bunch of sweet and mouthwatering desserts! 
 
