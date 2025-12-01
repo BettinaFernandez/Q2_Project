@@ -90,6 +90,7 @@ nav.nav-grid {
   background-color: #fffff157;
   border-radius:50px;
   border: 7px dotted rgba(255, 255, 255, 0.63);
+  backdrop-filter: blur(4px);
 }
 
 .nav-card {
@@ -157,6 +158,16 @@ nav.nav-grid {
   color: whitesmoke;
   transform: scale(1.08);
   text-shadow: 1px 1px 3px rgb(14, 51, 86);
+}
+
+h4 {
+  font-family: 'Nature_Beauty';
+  font-weight: lighter;
+  text-shadow: 3px 3px 8px rgb(204, 69, 78);
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 3px;
+
 }
 
 
