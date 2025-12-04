@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://tenor.com/view/food-2dfood-delicious-anime-gif-15258918.gif") center center no-repeat fixed;
+  background-size: cover;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Nature_Beauty';
+  src: url('../../fonts/fonts/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Super_Shape';
+  src: url('../../fonts/fonts/SuperShape-PV9qE.ttf') format('truetype');
+}
+
+main h1 {
+  display: flex;
+  font-size: 90px;                
+  font-family: 'Super_Shape';
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  text-shadow: 3px 3px 8px rgb(204, 69, 78);
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+main p {
+  text-align: center;
+  font-family: 'Nature_Beauty';
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  display: flex;
+}
+
+
+main {
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+  column-gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#about {
+  margin-bottom: 20px;
+  background-color: rgba(214, 81, 81, 0.43);
+  backdrop-filter: blur(4px);
+  border-radius: 40px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: 'Super_Shape';
+  text-align: center;
+  margin: 5px 0 25px 0;
+  text-shadow:
+    -2px -2px #ba5b5b,
+     2px -2px #ba5b5b,
+    -2px  2px #ba5b5b,
+     2px  2px #4f6335;
+}
+
+main h3 {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 900;
+  margin-left: 25px;
+  text-shadow:
+    -2px -2px #523030,
+     2px -2px #523030,
+    -2px  2px #523030,
+     2px  2px #523030;
+}
+
+.Tab {
+  text-align: center;
+  font-family: 'Nature_Beauty', sans-serif;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Tab:hover {
+  transform: scale(1.1);
+}
+
+.ingredients {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.6s ease, opacity 0.4s ease;
+  gap: 20px;
+}
+
+.ingredients.open {
+  max-height: 700px;
+  opacity: 1;
+}
+
+.ingredients_photo img {
+  width: 350px;
+  border-radius: 30px;
+  border: 3px solid white;
+  margin: 10px;
+}
+
+.return_link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.return_link a {
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: 2px solid white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.return_link a:hover {
+  background: rgba(255, 255, 255, 0.45);
+  transform: scale(1.05);
+}
+
+
