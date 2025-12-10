@@ -10,4 +10,9 @@
                 location.href="Beef_Brocolli/BF_TwoServing.html";
             }
         }
+
+        else if (name_of_recipe=="chicken_katsu_recipe"){
+                location.href="CK_recipes.html";
+
+        }
     }
