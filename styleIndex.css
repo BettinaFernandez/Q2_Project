@@ -12,12 +12,12 @@ html {
 
 @font-face {
   font-family: 'Nature_Beauty';
-  src: url('fonts/fonts/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
+  src: url('fonts/assests/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Super_Shape';
-  src: url('fonts/fonts/SuperShape-PV9qE.ttf') format('truetype');
+  src: url('fonts/assests/SuperShape-PV9qE.ttf') format('truetype');
 }
 
 header {
