@@ -8,62 +8,44 @@
     <!--THE FAVICON IS A TEST!!! THE LOGO WILL BE DESIGNED SOON-->
     <link rel="stylesheet" href="../recipes_stylesheet.css">
 
-<style>
-
-.quiz_questions{
-    background-color: rgba(255, 235, 205, 0.49);
-    border: 2px solid rgb(108, 77, 74);
-    border-radius: 50px;
-    max-width: 75%;
-    margin: 10px auto 10px auto;
-    overflow: auto;
-}
-
-h3{
-    font-size: 25px;
-    margin: 9px;
-    color: rgb(182, 36, 36);
-}
-label{
-    color: rgb(12, 12, 12);
-    font-weight: bold;
-}
-button{
-    transition: all 2.5s ease-in-out;
-    color: rgb(146, 45, 45);
-}
-button:hover{
-    transform: scale(1.03);
-}
-
-</style>
 </head>
+
+<style>
+main h1{
+  display: flex;
+  font-family: 'Nature_Beauty';
+  font-weight: lighter;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+</style>
     <body>
     <header>
-    <div class="logo">
-        <img src="https://i.pinimg.com/736x/b2/53/86/b253868bc938932717dd7bcde1d002ab.jpg">
-    </div>
 
 <main>
+    <h1> What Type of Cake are You?</h1>
 <section class = "quiz_questions">
 <form id="Quiz_1_Cake">
 
-    <h3> What's your favorite hobby? </h3> <!--Question 1-->
+    <h2> What's your favorite hobby? </h2>
     <label><input  name="Question_1" value="A" type="radio"> Reading books </label>
     <label><input  name="Question_1" value="B" type="radio"> Going on galas with friends </label>
     <label><input  name="Question_1" value="C" type="radio"> Write and listen to music </label>
 
-    <h3> What's your favorite type of dog? </h3> <!--Question 2-->
+    <h2> What's your favorite type of dog? </h2>
     <label><input type="radio" name="Question_2" value="A"> German Shepherd </label>
     <label><input type="radio" name="Question_2" value="B"> Pug </label>
     <label><input type="radio" name="Question_2" value="C"> Golden Retriever </label>
 
-    <h3> What's your favorite holiday? </h3> <!--Question 3-->
+    <h2> What's your favorite holiday? </h2>
     <label><input type="radio" name="Question_3" value="A"> Halloween </label>
     <label><input type="radio" name="Question_3" value="B"> Christmas </label>
     <label><input type="radio" name="Question_3" value="C"> New Year's </label>
 
-    <button type="button" onclick="cake_result()" style="display: block; margin-top: 30px;"> Reveal Your Cake!??!! </button>
+    <button type="button" onclick="cake_result()"> Reveal Your Cake </button>
 </form>
 
 <p id="result" style="margin-top:20px; font-weight:bold;"></p>
@@ -71,26 +53,16 @@ button:hover{
 <script src="../quizzes/cake_quiz.js"></script>
 
 </section>
-</main>
 
-    <nav class="nav-grid">
-        <div>
-            <a class="nav-card" href="../../index.html"> About us! </a>
-            <a class="active" href="#quiz"> Quizzes </a>
-            <a class="nav-card" href="../beef_recipes/beef.html"> Beef Recipes </a>
-            <a class="nav-card" href="../pork_recipes/pork.html"> Pork Recipes</a>
-            <a class="nav-card" href="../chicken_recipes/chicken.html"> Chicken Recipes </a>
-            <a class="nav-card" href="../rice_veggies_recipes/rice_veggies.html"> Rice and Vegetables </a>
-            <a class="nav-card" href="../pasta_recipes/pasta_noodles.html"> Pasta and Noodles </a>
-            <a class="nav-card" href="../desserts_recipes/desserts.html"> Desserts </a>
-            <a class="nav-card" href="../drinks_recipes/drinks.html"> Beverages </a>
-        </div>
-    </nav>
+<div class="return_link">
+<a href="../quizzes/quiz.html">Back to Quiz Homepage</a>
+</div>
+
+</main>
     </header>
 
 
 
 
     </body>
-</head>
 </html>

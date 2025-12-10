@@ -146,3 +146,46 @@ main h3 {
   transform: scale(1.05);
 }
 
+label {
+  font-family:'Trebuchet MS';
+  font-weight: 600;
+  font-size: larger;
+  background-color: rgba(204, 69, 78, 0.666);
+  backdrop-filter: blur(3px);
+  border-radius: 50px;
+  padding: 5px;
+}
+
+label:hover {
+  background-color: rgba(99, 156, 255, 0.352);
+}
+
+button{
+  display: block;
+  font-family: 'Nature_Beauty';
+  margin: 40px auto;
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  font-weight: lighter;
+  font-size: 25px;
+  font-family: "Nature_Beauty";
+  text-shadow: 3px 3px 8px rgb(204, 69, 78);
+  transition: transform 0.25s ease-in-out
+}
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.15) rotate(1.3deg);
+}
+
+.quiz_questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
