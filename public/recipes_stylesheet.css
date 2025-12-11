@@ -125,6 +125,22 @@ main h3 {
   margin: 10px;
 }
 
+.procedure {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.6s ease, opacity 0.4s ease;
+  gap: 20px;
+}
+
+.procedure.open {
+  max-height: 700px;
+  opacity: 1;
+}
+
 .return_link {
   text-align: center;
   margin-top: 40px;
