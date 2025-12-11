@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: url("https://media1.tenor.com/m/6rs1SiSV-64AAAAC/food-dish.gif") center center no-repeat fixed;
+  background: url("../assets/indexBackground.gif") center center no-repeat fixed;
   background-size: cover;
   color: white;
 }
