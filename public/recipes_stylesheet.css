@@ -147,7 +147,7 @@ main h3 {
 }
 
 .return_link a {
-  color: white;
+  color: rgb(246, 85, 174);
   background: rgba(255, 255, 255, 0.25);
   padding: 15px 25px;
   border-radius: 20px;

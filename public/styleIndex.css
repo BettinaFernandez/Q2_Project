@@ -77,6 +77,48 @@ p {
   100% { color: rgb(107, 129, 26); }
 }
 
+.dividers{        
+    margin: 2px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.intro_Creators{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.creator_Text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 50%;            
+}
+
+.intro_Creators h2 {
+    font-family: 'Nature_Beauty';
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 2px 10px 2px 50px;
+    text-shadow: 3px 3px 8px rgb(204, 69, 78);
+    }
+
+.intro_Creators h5 {
+    line-height: 1.5;
+    margin: 2px auto auto 2px;
+}
+
+.intro_Creators img{
+    width: 400px;
+    margin: 20px;
+    border-radius: 50%;
+    display: block;
+    border: 2px white solid;
+    flex: 1 1 50%;  
+}
+
 nav.nav-grid {
   text-align: center;
   display: grid;
@@ -187,7 +229,7 @@ h4 {
 }
 
 .introduction.open, .intro_Creators.open {
-    max-height: 500px;
+    max-height: 1000px;
     opacity: 1;
 }
 
