@@ -147,18 +147,19 @@ main h3 {
 }
 
 .return_link a {
-  color: rgb(246, 85, 174);
-  background: rgba(255, 255, 255, 0.25);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background: rgba(186, 22, 66, 0.656);
   padding: 15px 25px;
   border-radius: 20px;
   border: 2px solid white;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
   transition: 0.25s;
 }
 
 .return_link a:hover {
-  background: rgba(255, 255, 255, 0.45);
+  background: rgba(63, 53, 176, 0.642);
   transform: scale(1.05);
 }
 
