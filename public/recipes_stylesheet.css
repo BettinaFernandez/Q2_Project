@@ -206,3 +206,10 @@ button:hover{
   width: 100%;
   text-align: center;
 }
+
+footer{
+  background-color: rgba(0, 0, 0, 0.305);
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
