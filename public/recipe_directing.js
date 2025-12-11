@@ -1,6 +1,5 @@
 
     function redirect_recipe(name_of_recipe){
-    const quantity=prompt("How many servings? Pick from 1-2.");
 
         if (name_of_recipe=="beef_brocolli_recipe"){
     const quantity=prompt("How many servings? Pick from 1-5.");
@@ -14,59 +13,75 @@
                 location.href="Beef_Brocolli/BF_ThreeServing.html";
             }
             else if(quantity === "4"){
-                location.href="Beef_Brocolli/BF_FourServing.html";
+                location.href="Beef_Brocolli/BF_FourServings.html";
             }
             else if(quantity === "5"){
-                location.href="Beef_Brocolli/BF_fiveServing.html";
+                location.href="Beef_Brocolli/BF_FiveServings.html";
             }
         }
 
         else if (name_of_recipe=="chicken_katsu_recipe"){
+            const quantity=prompt("How many servings? Pick from 1-2.");
             if(quantity === "1"){
-                location.href="chicken_recipes/CK_recipes.html";
+                location.href="CK_recipes.html";
             }
             else if(quantity === "2"){
-                location.href="chicken_recipes/BF_TwoServing.html";
+                location.href="CK2_recipes.html";
             }
 
         }
 
         else if (name_of_recipe=="crepes_recipe"){
+            const quantity=prompt("How many servings? Pick from 1-2.");
             if(quantity === "1"){
-                location.href="desserts_recipes/Crepes_Recipes_OneServing.html";
+                location.href="Crepes_Recipes_OneServing.html";
             }
             else if(quantity === "2"){
-                location.href="desserts_recipes/Crepes_Recipes_TwoServings.html";
+                location.href="Crepes_Recipes_TwoServings.html";
             }
 
         }
 
         else if (name_of_recipe=="horchata_recipe"){
+            const quantity=prompt("How many servings? Pick from 1-2.");
             if(quantity === "1"){
-                location.href="drinks_recipes/Horchata_OneServing.html";
+                location.href="Horchata_OneServing.html";
             }
             else if(quantity === "2"){
-                location.href="drinks_recipes/Horchata_TwoServings.html";
+                location.href="Horchata_TwoServings.html";
             }
 
         }
 
         else if (name_of_recipe=="GBSS_recipe"){
+            const quantity=prompt("How many servings? Pick from 1-2.");
             if(quantity === "1"){
-                location.href="pasta_recipes/GBSS_Recipes_OneServing.html";
+                location.href="GBSS_Recipe_OneServing.html";
             }
             else if(quantity === "2"){
-                location.href="pasta_recipes/GBSS_Recipes_TwoServings.html";
+                location.href="GBSS_Recipe_TwoServings.html";
             }
 
         }
 
         else if (name_of_recipe=="Pork_steak_recipe"){
+            const quantity=prompt("How many servings? Pick from 1-2.");
             if(quantity === "1"){
-                location.href="pork_recipes/PorkSteak_OneServing.html";
+                location.href="PorkSteak_OneServing.html";
             }
             else if(quantity === "2"){
-                location.href="pork_recipes/PorkSteak_TwoServings.html";
+                location.href="PorkSteak_TwoServings.html";
+            }
+
+        }
+
+        else if (name_of_recipe=="Fried_Rice_recipe"){
+            const quantity=prompt("How many servings? Pick from 1-2.");
+            if(quantity === "1"){
+                location.href="FriedRice_OneServing.html";
+            }
+            else if(quantity === "2"){
+                location.href="FriedRice_TwoServings.html";
             }
 
         }
