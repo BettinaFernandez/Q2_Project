@@ -1,3 +1,4 @@
+/*BACKGROUND*/
 body {
   margin: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,10 +7,10 @@ body {
   color: white;
 }
 
-html {
+html { /*Allows the page to scroll up and down*/
   scroll-behavior: smooth;
 }
-
+/*CUSTOM FONTS*/
 @font-face {
   font-family: 'Nature_Beauty';
   src: url('../assets/NatureBeautyPersonalUse-9Y2DK.ttf') format('truetype');
@@ -19,12 +20,12 @@ html {
   font-family: 'Super_Shape';
   src: url('../assets/SuperShape-PV9qE.ttf') format('truetype');
 }
-
+/*ALIGNS THE TEXTS*/
 header {
   text-align: center;
   margin: 30px 10px 30px 10px
 }
-
+/*CENTERS LOGO*/
 .logo img {
   border-radius: 50%;
   border: 4px solid white;
@@ -33,7 +34,7 @@ header {
   object-fit: cover;
   margin-bottom: -0.5px;
 }
-
+/*TITLE OF THE WEBSITE*/
 header h1 {
   font-family: 'Super_Shape';
   width: 95%;
@@ -47,13 +48,14 @@ header h1 {
   animation: float 3.5s ease-in-out infinite;
 }
 
-
+/*TITLE OF THE WEBSITE Animation*/
 @keyframes float {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(-8px); }
   100% { transform: translateY(0); }
 }
 
+/*SUBTITLE OF THE WEBSITE*/
 p {
   font-size: 20px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,6 +71,7 @@ p {
   animation: colorchange 3s infinite;
 }
 
+/*SUBTITLE OF THE WEBSITE Animation*/
 @keyframes colorchange {
   0%   { color: rgb(107, 129, 26); }
   25%  { color: rgb(201, 189, 15); }
@@ -77,6 +80,7 @@ p {
   100% { color: rgb(107, 129, 26); }
 }
 
+/*Neatness between the titles*/
 .dividers{        
     margin: 2px;
     text-align: center;
@@ -84,6 +88,7 @@ p {
     font-size: 40px;
 }
 
+/* -------------------------------- INTRODUCTION OF THE CREATORS ----------------------------------------*/
 .intro_Creators{
     display: flex;
     align-items: center;
@@ -119,6 +124,7 @@ p {
     flex: 1 1 50%;  
 }
 
+/* ------------------------- MINI MENU ---------------------*/
 nav.nav-grid {
   text-align: center;
   display: grid;

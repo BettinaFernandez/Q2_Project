@@ -1,9 +1,9 @@
 
-    function redirect_recipe(name_of_recipe){
+    function redirect_recipe(name_of_recipe){ //The name of the recipe detects which files it will navigate between
 
         if (name_of_recipe=="beef_brocolli_recipe"){
-    const quantity=prompt("How many servings? Pick from 1-5.");
-            if(quantity === "1"){
+    const quantity=prompt("How many servings? Pick from 1-5."); // Prompt for how many servings
+            if(quantity === "1"){ //detecs quantity and transfers the user to that webpage
                 location.href="Beef_Brocolli/BF_OneServing.html";
             }
             else if(quantity === "2"){
