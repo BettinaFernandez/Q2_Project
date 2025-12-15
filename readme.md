@@ -35,18 +35,19 @@ JS will be used in identifying how many servings the cooker wants the recipe to 
 
 
 ### Navigation Design: 
-        <nav>
-            <div class="links">
-                <a class="active" href="#home"> About us! </a>
-                <a href="webpages/quizzes/quiz.html"> Quizzes </a>
-                <a href="webpages/beef_recipes/beef.html"> Beef Recipes </a>
-                <a href="webpages/pork_recipes/pork.html"> Pork Recipes</a>
-                <a href="webpages/chicken_recipes/chicken.html"> Chicken Recipes </a>
-                <a href="webpages/rice_veggies_recipes/rice_veggies.html"> Rice and Vegetables </a>
-                <a href="webpages/pasta_recipes/pasta_noodles.html"> Pasta and Noodles </a>
-                <a href="webpages/desserts_recipes/desserts.html"> Desserts </a>
-                <a href="webpages/drinks_recipes/drinks.html"> Beverages </a>
+    <nav class="nav-grid">
+        <div>
+            <h4> Mini Menu </h4>
+            <a class="active" href="#home"> ✧ ༘ ⋆｡♡🏠︎ <br> About us! </a>
+            <a class="nav-card" href="public/quizzes/quiz.html"> (๑'ᵕ'๑)⸝* <br> Quizzes </a>
+            <a class="nav-card" href="public/beef_recipes/beef.html"> 𓃓 𓃔 𓃓 𓃖 <br> Beef Recipes </a>
+            <a class="nav-card" href="public/pork_recipes/pork.html"> ⍝◜ᐢ•🐽•ᐢ◝⍝ <br> Pork Recipes</a>
+            <a class="nav-card" href="public/chicken_recipes/chicken.html"> ꒰ঌ( •ө• )໒꒱ <br> Chicken Recipes </a>
+            <a class="nav-card" href="public/rice_veggies_recipes/rice_veggies.html"> ˙ . ꒷ 🍙 . 𖦹˙— 🐈‍⬛ <br> Rice and Vegetables </a>
+            <a class="nav-card" href="public/pasta_recipes/pasta_noodles.html"> 🍝🥢♡ ༘*.ﾟ <br> Pasta and Noodles </a>
+            <a class="nav-card" href="public/desserts_recipes/desserts.html"> ୧ ‧₊˚ 🍮 ⋅ ☆ <br> Desserts </a>
+            <a class="nav-card" href="public/drinks_recipes/drinks.html"> 🥂⋅♡𓂃 ࣪ ִֶָ☾. <br> Beverages </a>
 
-            </div>
-        </nav>
+        </div>
+    </nav>
 
