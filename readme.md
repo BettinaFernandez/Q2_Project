@@ -26,6 +26,11 @@ JS will be used in identifying how many servings the cooker wants the recipe to 
 
 ### Wireframe:
 <img width="1151" height="645" alt="image" src="https://github.com/user-attachments/assets/9b7c5f7a-1f75-41d8-a499-af46e4fea875" />
+<img width="1155" height="649" alt="image" src="https://github.com/user-attachments/assets/016afdfd-c707-4e5a-8f7d-ec25e3b8c83a" />
+<img width="1154" height="648" alt="image" src="https://github.com/user-attachments/assets/c9513fb5-2c7d-4239-ac65-31eb670755c1" />
+<img width="1157" height="652" alt="image" src="https://github.com/user-attachments/assets/30c2b892-e477-4ba0-8b75-d76837dfcfb2" />
+
+
 
 
 
