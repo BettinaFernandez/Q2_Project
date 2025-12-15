@@ -8,7 +8,7 @@ Little Chef's Corner is an online cookbook meant for beginner bakers and aspirin
 
  There are recipes that range based on the user's viand of choice-- beef, chicken, and pork. On top of that, there are recipes for different kinds of pastas, helping the user explore different unique tastes. To quench the user's thirst, we've included numerous recipes for refreshing, bold, and creative drinks. Lastly, what is a meal without some dessert? There are recipes for a bunch of sweet and mouthwatering desserts! 
 
- But wait, there's more! Kitchen Novice Secrets isn't like any other ordinary cookbook. This website will also help new chefs discover must-try-recipes through quizzes based on their preferred tastes. Not only that, but they can also explore their food personas! This feature truly isn't something you see in just any cookbook, is it? Well, go try it out for yourself!
+ But wait, there's more! Little Chef's Corner isn't like any other ordinary cookbook. This website will also help new chefs discover must-try-recipes through quizzes based on their preferred tastes. Not only that, but they can also explore their food personas! This feature truly isn't something you see in just any cookbook, is it? Well, go try it out for yourself!
 
  ### Outline of Webpages:
 - Home (About Us!): This webpage will contain all relevant information about the cookbook. This includes its features, creators, and the brief description of the whole website.
