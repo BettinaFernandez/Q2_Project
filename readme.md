@@ -25,6 +25,9 @@ Little Chef's Corner is an online cookbook meant for beginner bakers and aspirin
 JS will be used in identifying how many servings the cooker wants the recipe to provide and outputing results in quizzes. These can be found in the Quizzes and any of the Recipes menus.
 
 ### Wireframe:
+<img width="1151" height="645" alt="image" src="https://github.com/user-attachments/assets/9b7c5f7a-1f75-41d8-a499-af46e4fea875" />
+
+
 
 ### Navigation Design: 
         <nav>
