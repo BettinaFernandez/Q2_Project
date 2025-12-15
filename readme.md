@@ -1,7 +1,9 @@
 # Little Chef's Corner
-## The Ultimate Beginner Cookbook
+## A Cozy Cookbook for Every Craving
 
 ### Logo/Favicon: 
+<img width="680" height="604" alt="image" src="https://github.com/user-attachments/assets/7e95af1b-db14-4ab9-bce8-51c91dbb1971" />
+
 
 ### Description: What's Little Chef's Corner all about?
 Little Chef's Corner is an online cookbook meant for beginner bakers and aspiring chefs. Each section showcases various recipes of various difficulties, helping the user try out new dishes, improve their cooking techniques, and rise to a higher skill level! Every recipe also allows the user to choose how many servings they would like to make, each quantity leading to a separate and specific recipe for the cooker to use.
