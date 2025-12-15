@@ -1,5 +1,6 @@
-# Little Chef's Corner
-## A Cozy Cookbook for Every Craving
+# Little Chef's Corner 👩‍🍳🧁
+
+## A Cozy Cookbook for Every Craving💤 💤 💤
 
 ### Logo/Favicon: 
 <img width="680" height="604" alt="image" src="https://github.com/user-attachments/assets/7e95af1b-db14-4ab9-bce8-51c91dbb1971" />
