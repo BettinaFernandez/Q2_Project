@@ -1,7 +1,12 @@
 # Q3 PROPOSAL UPDATE
 ## Final Title:
 ## Features
--
+1. A personal gallery for our little chefs to attach images and/or videos of their memories in the kitchen!
+2. A page for people with dietary restrictions
+3. A small online store that sells confections, meals, and merchandise. (Not serious online shopping, play-pretend only but it holds all the features that can be found in an online store, such as viewing the item, adding to cart, and 'check out')
+## Details
+- The form can be found in features 1 and 3, where the website will require the user to make a personal account when entered to be able to play and interact with these features.
+- The user data will be used to identify which user is using or logging in the website. This will be applicable to features 1 and 3 so that the imported images/videos and orders will be saved in a separate, personal section.
 
 
 
