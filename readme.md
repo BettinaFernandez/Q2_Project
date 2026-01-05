@@ -1,3 +1,31 @@
+# Q3 PROPOSAL UPDATE
+## Final Title:
+## Features
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 # Little Chef's Corner 👩‍🍳🧁
 
 ## A Cozy Cookbook for Every Craving💤 💤 💤
@@ -53,4 +81,3 @@ JS will be used in identifying how many servings the cooker wants the recipe to 
 
         </div>
     </nav>
-
