@@ -2,7 +2,7 @@
 ## Final Title: Little Chef's Corner 👩‍🍳🧁
 ## Features
 1. A personal gallery for our little chefs to attach images and/or videos of their memories in the kitchen!
-2. A page for people with dietary restrictions
+2. A page for people with dietary restrictions (vegan, diabetic, lactose-intolerant, etc.)
 3. A small online store that sells confections, meals, and merchandise. (Not serious online shopping, play-pretend only but it holds all the features that can be found in an online store, such as viewing the item, adding to cart, and 'check out')
 ## Details
 - The form can be found in features 1 and 3, where the website will require the user to make a personal account when entered to be able to play and interact with these features.
