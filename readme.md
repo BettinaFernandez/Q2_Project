@@ -1,5 +1,5 @@
 # Q3 PROPOSAL UPDATE
-## Final Title:
+## Final Title: Little Chef's Corner 👩‍🍳🧁
 ## Features
 1. A personal gallery for our little chefs to attach images and/or videos of their memories in the kitchen!
 2. A page for people with dietary restrictions
