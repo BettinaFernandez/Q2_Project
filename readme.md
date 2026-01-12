@@ -3,7 +3,7 @@
 ## Features
 1. A top-secret public gallery for our little chefs to attach images and/or videos of their memories in the kitchen! (Will make a hook about this section in the website instead of being straight-forward that it is a public gallery to emphasize the requirement of the form)
 2. A page for people with dietary restrictions (vegan, diabetic, lactose-intolerant, etc.)
-3. A small online store that sells confections, meals, and merchandise. (Not serious online shopping, play-pretend only but it holds all the features that can be found in an online store, such as viewing the item, adding to cart, and 'check out')
+3. A small online store that sells confections, meals, and merchandise. (Not serious online shopping, play-pretend only but it holds some features that can be found in an online store.)
 ## Details
 - The form can be found in features 1 and 3, where the website will require to enter the top-secret little chef's account. When entered, they will be able to play and interact with these features.
 - The user data will be used to identify which user is using or logging in the website. This will be applicable to features 1 and 3 so that the imported images/videos and orders will be saved.
