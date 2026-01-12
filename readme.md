@@ -1,7 +1,7 @@
 # Q3 PROPOSAL UPDATE
 ## Final Title: Little Chef's Corner 👩‍🍳🧁
 ## Features
-1. A top-secret public gallery for our little chefs to attach images and/or videos of their memories in the kitchen! (Will make a hook about this section in the website instead of being straight-forward that it is a public gallery to emphasize the requirement of the form)
+1. A top-secret public gallery for our little chefs to attach images and/or videos of their memories in the kitchen!
 2. A page for people with dietary restrictions (vegan, diabetic, lactose-intolerant, etc.)
 3. A small online store that sells confections, meals, and merchandise. (Not serious online shopping, play-pretend only but it holds some features that can be found in an online store.)
 ## Details
