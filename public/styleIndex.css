@@ -301,6 +301,10 @@ footer{
     text-overflow: ellipsis;
   }
 
+  .Tab{
+    width:100%;
+  }
+
 
   .intro_Creators {
     flex-direction: column;
