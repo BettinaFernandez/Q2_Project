@@ -270,3 +270,83 @@ footer{
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+    
+  body{
+    background-attachment: scroll;
+  }
+  header h1{
+    font-size: 45px;
+    padding: 4px
+  }
+  header p{
+    font-size: 14px;
+    margin-bottom: 25px
+
+  }
+  .logo img{
+    width: 140px;
+    height: 140px;
+  }
+  #about{
+    width: 90%;
+    font-size:18px;
+    padding:15px
+  }
+  .dividers {
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+
+  .intro_Creators {
+    flex-direction: column;
+    text-align: center;
+  }
+  .creator_Text {
+    align-items: center;
+  }
+
+  .intro_Creators h2 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+
+  .intro_Creators h5 {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .intro_Creators img {
+    width: 180px;
+    margin: 10px auto;
+  }
+
+  nav.nav-grid {
+    grid-template-columns: 1fr;
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .nav-card,
+  .active {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+  .homepage_links a {
+    font-size: 28px;
+  }
+
+  footer {
+    font-size: 9px;
+    padding: 8px;
+  }
+}
