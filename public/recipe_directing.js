@@ -85,4 +85,15 @@
             }
 
         }
+
+        else if (name_of_recipe=="Angel_Food_Cake"){
+            const quantity=prompt("How many servings? Pick from 1 for now.");
+            if(quantity === "1"){
+                location.href="AngelFoodCake_recipe.html";
+            }
+            else if(quantity === "2"){
+                location.href="FriedRice_TwoServings.html";
+            }
+
+        }
     }
