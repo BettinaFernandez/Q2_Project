@@ -83,6 +83,13 @@
      2px -2px  #f47d7d,
     -2px  2px  #f47d7d,
      2px  2px  #f47d7d;
+     animation: float 3.5s ease-in-out infinite;
+    }
+
+    @keyframes float{
+      0% { transform: translateY(0px);}
+      50% { transform: translateY(-8px);}
+      100% { transform: translateY(0px);}
     }
 
     .products {
