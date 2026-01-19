@@ -7,6 +7,41 @@
     <link rel="icon" href="assets/logo.jpg" type="image/png">
     <link rel="stylesheet" href="../public/styleStore.css">
 
+    <style>
+      #info {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: auto;
+        padding: 50px;
+      }
+      header p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #333;
+
+      }
+
+      header h1{
+        text-shadow:
+    -2px -2px  #542020,
+     2px -2px  #542020,
+    -2px  2px  #542020,
+     2px  2px  #542020;
+      }
+      header nav ul li a{
+        background-color: white;
+        border: 2px rgb(155, 73, 84)0 solid;
+        border-radius: 50px;
+        padding: 5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header button{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: white;
+        border: 5px rgb(155, 73, 84) solid;
+        border-radius: 50px;
+        padding: 5px;
+        font-size: medium;
+      }
+    </style>
 </head>
 <body>
 
@@ -14,11 +49,12 @@
     <h1>Little Chef's Store</h1>
     <nav>
       <ul>
-        <li><a href="../index.html">Back to Main Kitchen</a></li>
-        <button popovertarget="contactinfo">Contact Us!</button>
+        <button><li><a href="../index.html">Back to Main Kitchen</a></li></button>
+        <button popovertarget="info">Contact Us!</button>
         <div id="info" popover>
-          <p> contact stuff</p>
+          <p> Gmails: b2029bfbfernandez@pshs.edu.ph b2029yccarlos@pshs.edu.ph </p>
         </div>
+      
       
       </ul>
     </nav>

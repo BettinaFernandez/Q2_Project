@@ -34,11 +34,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-        text-shadow:
-    -2px -2px  #542020,
-     2px -2px  #542020,
-    -2px  2px  #542020,
-     2px  2px  #542020;
     }
 
     header h1 {
@@ -56,15 +51,15 @@
     }
 
     nav ul li a {
-    color: white;
-    font-weight: 500;
+    font-weight: bolder;
+    color: #333;
     transition: transform 0.3s ease, color 0.3s ease;
     display: inline-block;
     }
 
     nav ul li a:hover {
-    color: #f4e67d;
-    transform: scale(1.2);
+    color: #0053a0;
+    cursor: pointer;
     }
 
     main {
