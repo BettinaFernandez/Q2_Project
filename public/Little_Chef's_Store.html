@@ -6,7 +6,6 @@
     <title> Little Chef's Corner </title>
     <link rel="icon" href="assets/logo.jpg" type="image/png">
     <link rel="stylesheet" href="../public/styleStore.css">
-    <script> src="ShoppingCart_JS.js"</script>
 
     <style>
       #info {
@@ -119,8 +118,12 @@
     </div>
 
       <div class="cart">
-    <p>Your Cart: 0 items - Php 0.00</p>
-    <button>View Cart</button>
+    <p id="totalItems">Your Cart: 0 items - Php 0.00</p>
+    <button id="view_cart">View Cart</button>
+        <div id="cartPopover">
+        <p id="popoverContent">Your cart is empty.</p>
+        <button id="closePopover">Close</button>
+    </div>
   </div>
 
   </main>
