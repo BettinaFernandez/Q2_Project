@@ -30,8 +30,8 @@
         <img src="../assets/Acai Bowl.jpg">
         <div class="productInfo">
           <h3>Açaí Bowls</h3>
-          <p>Php 120.00</p>
-          <button>Add to Cart</button>
+          <p class="price">Php 120.00</p>
+          <button id="button1">Add to Cart</button>
         </div>
       </div>
 
@@ -41,8 +41,8 @@
 
         <div class="productInfo">
           <h3>Little Chef's Corner Tote Bag</h3>
-          <p>Php 380.00</p>
-          <button>Add to Cart</button>
+          <p class="price">Php 380.00</p>
+          <button id="button2">Add to Cart</button>
         </div>
       </div>
 
@@ -52,8 +52,8 @@
 
         <div class="productInfo">
           <h3>Tiramisu Cake</h3>
-          <p>Php 250.00</p>
-          <button>Add to Cart</button>
+          <p class="price">Php 250.00</p>
+          <button id="button3">Add to Cart</button>
         </div>
       </div>
 
@@ -63,15 +63,19 @@
 
         <div class="productInfo">
           <h3>Little Chef's Corner T-Shirt (Unisex)</h3>
-          <p>Php 500.00</p>
-          <button>Add to Cart</button>
+          <p class="price">Php 500.00</p>
+          <button id="button4">Add to Cart</button>
         </div>
       </div>
     </div>
 
       <div class="cart">
-    <p>Your Cart: 0 items - Php 0.00</p>
-    <button>View Cart</button>
+    <p id="totalItems">Your Cart: 0 items - Php 0.00</p>
+    <button id="view_cart">View Cart</button>
+        <div id="cartPopover" class="popover">
+        <p id="popoverContent">Your cart is empty.</p>
+        <button id="closePopover">Close</button>
+    </div>
   </div>
 
   </main>
@@ -82,5 +86,8 @@
     <li>&copy; 2026 Little Chef's Store. All rights reserved.</li>
   </ul>
 </footer>
+
+<script src="shoppingCart.js"></script>
+
 </body>
 </html>
